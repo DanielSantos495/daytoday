@@ -1,5 +1,7 @@
-$black: red;
-
-h1 {
-  color: $black;
-}
+@import './utils/reset.scss';
+@import './utils/fonts.scss';
+@import './utils/variables.scss';
+@import './utils/mixins.scss';
+@import './utils/placeholder.scss';
+@import './utils/container.scss';
+@import './layout/header.scss';
